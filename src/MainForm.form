@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
+  <grid id="27dc6" binding="mainForm" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="913" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4473925"/>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="46ff" binding="initPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="92162" class="javax.swing.JButton" binding="collapseButton">
+            <constraints/>
+            <properties>
+              <label value="Collapse"/>
+              <text value="Collapse"/>
+            </properties>
+          </component>
+          <component id="f8c8f" class="javax.swing.JButton" binding="expandButton">
+            <constraints/>
+            <properties>
+              <label value="Expand"/>
+              <text value="Expand"/>
+            </properties>
+            <clientProperties>
+              <hideActionText class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e2725" binding="lastnamePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a978c" class="javax.swing.JTextField" binding="lastName">
+            <constraints border-constraint="North"/>
+            <properties>
+              <preferredSize width="150" height="30"/>
+            </properties>
+          </component>
+          <component id="4a16b" class="javax.swing.JLabel" binding="lastNameLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <text value="Фамилия"/>
+              <verticalAlignment value="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e35e" binding="paterNamePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="East"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="307f1" class="javax.swing.JTextField" binding="paterName">
+            <constraints border-constraint="North"/>
+            <properties>
+              <alignmentY value="0.0"/>
+              <horizontalAlignment value="0"/>
+              <margin top="2" left="6" bottom="2" right="6"/>
+              <name value=""/>
+              <preferredSize width="150" height="30"/>
+            </properties>
+          </component>
+          <component id="2440d" class="javax.swing.JLabel" binding="paterNameLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <text value="Отчество"/>
+              <verticalAlignment value="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="db1d4" binding="firstNamePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f4cb" class="javax.swing.JTextField" binding="firstName">
+            <constraints border-constraint="North"/>
+            <properties>
+              <preferredSize width="150" height="30"/>
+            </properties>
+          </component>
+          <component id="46c69" class="javax.swing.JLabel" binding="firstNameLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <text value="Имя"/>
+              <verticalAlignment value="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
